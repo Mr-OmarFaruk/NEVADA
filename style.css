@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+.banner{
+    background-image: url('img/Banner-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.big-btn{
+    text-decoration: none;
+    background-color: #FFA301;
+    padding: 0.5rem 1.5rem;
+}
+.check-list{
+    margin: auto 0;
+}
+.benefits{
+    background-color:#014093;
+    ;
+}
+.img-left-round{
+    background-image: url('img/left-circle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-right-round{
+    background-image: url('img/right-circle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+footer{
+    background-color: #0B0D17;
+}
+
+@media (max-width: 576px) { 
+    iframe{
+        height: auto;
+        width: fit-content;
+    }
+}
